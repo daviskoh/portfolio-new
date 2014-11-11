@@ -1,0 +1,24 @@
+{
+  "name": "portfolio-new",
+  "version": "0.0.1",
+  "repository": "",
+  "authors": [
+    "Davis Koh <koh.davis.0@gmail.comcom>"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/libs",
+    "Gruntfile.js",
+    "package.json",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.2",
+    "angular-mocks": "~1.3.2"
+  },
+  "devDependencies": {}
+}
