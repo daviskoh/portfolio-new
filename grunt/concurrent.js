@@ -6,9 +6,7 @@ module.exports = {
     ],
 
     dist: [
-		'test:unit',
         'newer:sass:dist',
-        'newer:copy:dist',
-        'newer:html2js:app'
+        'newer:copy:dist'
     ]
 };

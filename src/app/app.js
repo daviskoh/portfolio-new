@@ -1,7 +1,6 @@
 'use strict';
 
 angular.module('siteMod', [
-    'ui.router',
     'siteMod.templates',
     'siteMod.common'
 ])
