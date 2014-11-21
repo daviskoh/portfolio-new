@@ -7,7 +7,7 @@ module.exports = {
         src: [
             '{,*/}*.html',
             'assets/**/*',
-            'styles/fonts/*'
+            'styles/fonts/**/*'
         ],
         dest: '<%= meta.dist %>'
     }
