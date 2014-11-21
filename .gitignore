@@ -114,7 +114,6 @@ node_modules
 # Docs
 # ----
 
-*.pdf
 *.doc
 *.docx
 *.ppt
