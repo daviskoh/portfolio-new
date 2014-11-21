@@ -12,8 +12,6 @@ module.exports = function (grunt) {
 
     grunt.registerTask('serve', 'builds dev Sass, and runs a dev server on localhost:3333', [
         'concurrent:dev',
-        'jshint',
-        'test:unit',
         'connect:app',
         'watch'
     ]);
@@ -27,8 +25,6 @@ module.exports = function (grunt) {
         'filerev:dist',
         'usemin',
         'htmlmin',
-        'ngAnnotate:dist',
-        'ngie',
         'uglify:dist'
     ]);
 

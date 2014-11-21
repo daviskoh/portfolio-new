@@ -17,7 +17,9 @@
     "tests"
   ],
   "dependencies": {
-    
+    "bootstrap": "~3.3.1",
+    "bootstrap-sass-official": "~3.3.1",
+    "components-font-awesome": "~4.2.0"
   },
   "devDependencies": {}
 }

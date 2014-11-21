@@ -1,21 +1,7 @@
-// ------------
-// Core Imports
-// ------------
+@import "bootstrap.scss";
+@import "landing-page.scss";
+@import "font-awesome.scss";
 
-
-// Get Settings + Base Vars
-@import 'settings/all';
-
-
-// Get Utils (Mixins, Functions, etc.)
-@import 'utils/all';
-
-
-// Import Base Components
-@import 'generic/all',
-        'base/all';
-
-
-// Import Modules + Views
-@import 'modules/all',
-        'views/all';
+.my-temp-font {
+    font-size: 18px;
+}

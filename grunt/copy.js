@@ -5,7 +5,9 @@ module.exports = {
         expand: true,
         cwd: '<%= meta.src %>',
         src: [
-            '*.html'
+            '{,*/}*.html',
+            'assets/**/*',
+            'styles/fonts/*'
         ],
         dest: '<%= meta.dist %>'
     }

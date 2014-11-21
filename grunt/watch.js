@@ -10,7 +10,7 @@ module.exports = {
     },
     src: {
         files: ['<%= meta.src %>/html/**/*.html', '<%= meta.src %>/index.html'],
-        tasks: ['html2js']
+        tasks: []
     },
     styles: {
         files: ['<%= meta.src %>/styles/scss/**/*.scss'],
