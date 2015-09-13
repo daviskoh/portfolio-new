@@ -28,7 +28,7 @@
   "scripts": {
     "postinstall": "bower install",
     "start": "grunt serve",
-    "build": "grunt dist",
+    "build": "grunt dist && cp -rf dist ../daviskoh.github.io && cd ../daviskoh.github.io && git add . && git cm 'update site' && git p",
     "test": "grunt test"
   }
 }
